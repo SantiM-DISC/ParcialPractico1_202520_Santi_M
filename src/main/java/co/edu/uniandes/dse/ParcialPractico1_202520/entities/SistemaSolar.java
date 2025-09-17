@@ -19,4 +19,5 @@ public class SistemaSolar extends BaseEntity {
     @OneToMany(mappedBy = "planetas")
     private List<PlanetaEntity> planetas = new ArrayList<>();
 
+    
 }
